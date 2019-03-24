@@ -1,0 +1,9 @@
+from flask import request, redirect
+@app.route(‘/water-python’, methods = ['POST'])
+def water-python():
+	name = request.form[‘name’]
+	phone = request.form[‘phone’]
+	email = request.form[‘email’]
+	unit = request.form[‘unit’] 
+	water-number = request.form[‘water-number’]
+	return redirect('/')
